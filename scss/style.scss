@@ -200,7 +200,7 @@ body {
 		position: relative;
 		top: 50%;
 		left: 50%;
-		transform: translate(-50%, 100%);
+		transform: translate(-50%, 120%);
 
 	}
 }
@@ -209,6 +209,7 @@ body {
 	justify-content: space-between;
 	margin: 70px 50px;
 	&__img{
+		
 		span{
 			display: block;
 			margin: 20px 0;
@@ -220,6 +221,7 @@ body {
 			margin: 0 auto;
 			display: block;
 			background-color: #333333;
+			position: relative;
 		}
 	}
 }
